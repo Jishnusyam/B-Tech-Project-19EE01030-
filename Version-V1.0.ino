@@ -28,7 +28,7 @@ const unsigned long LSF = 12000;   // sweep start frequency LSF ---> (Load start
 const unsigned long LEF = 60000;   // sweep End frequency LEF ---> (Load END frequency)
 long LF = 28000;                   // Initial frequency  LF ---> (Load  frequency)
 int FSD = 50;                      // Delay between frequency sweeps  FSD ---> (frequency sweep delay)
-int FSI = 1000;                     // Increment value for changing frequency  LF ---> (frequency sweep increment)
+int FSI = 1000;                     // Increment value for changing frequency  FSI ---> (frequency sweep increment)
 
 
 float Load_dutyCycle;              // Duty cycle of the PWM signal        (Note: in this code dutycycles are mapped 0-100% to 0-254 )
